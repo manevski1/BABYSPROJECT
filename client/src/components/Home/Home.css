@@ -1,0 +1,17 @@
+#HRLINE1 {
+    margin: 0px;
+    margin-bottom: 50px;
+    overflow :hidden;
+    color: #96BB36;
+    text-align: left;
+    line-height: 1.6em;
+  }
+  
+#HRLINE1:before {
+    display: block;
+    float: right;
+    margin-top: .8em; /* half the line-height */
+    border-top: 2px solid darkgrey;
+    width: 85%;
+    content: "";
+  }

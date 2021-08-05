@@ -1,0 +1,81 @@
+#AUTHENTICATE {
+    display: flex;
+    padding-top: 5%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#WELCOME {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 46px/60px var(--unnamed-font-family-roboto-slab);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal bold 46px/60px Roboto Slab;
+    letter-spacing: 0px;
+    opacity: 1;
+    width: 100%;
+    color: orange;
+}
+
+#BABYS {
+    color: darkgrey;
+}
+
+#TEXT {
+    width: 40%;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-roboto-slab);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--midgrey);
+    text-align: left;
+    font: normal normal normal 20px/26px Roboto Slab;
+    letter-spacing: 0px;
+    color: #A5A5A5;
+    opacity: 1;
+}
+
+#TOP {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-36)/var(--unnamed-line-spacing-48) var(--unnamed-font-family-roboto-slab);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--green);
+    text-align: left;
+    font: normal normal bold 36px/48px Roboto Slab;
+    letter-spacing: 0px;
+    color: #96BB36;
+    opacity: 1;
+}
+
+#INPUT {
+    border: 1px solid var(--midgrey);
+    background: #F0EFEA 0% 0% no-repeat padding-box;
+    border: 1px solid #A5A5A5;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+#ACTUALAUTH {
+    padding-top: 1%;
+}
+
+#HRLINE {
+    margin: 20px;
+    overflow :hidden;
+    color: #96BB36;
+    text-align: left;
+    line-height: 1em;
+  }
+
+#HRLINETWO {
+    margin: 20px;
+    overflow :hidden;
+    color: #96BB36;
+    text-align: left;
+    line-height: 1em;
+  }
+  
+#HRLINE:before {
+    display: block;
+    float: right;
+    margin-top: .8em; /* half the line-height */
+    border-top: 2px solid silver;
+    width: 83%;
+    content: "";
+  }
